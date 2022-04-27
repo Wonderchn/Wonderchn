@@ -18,7 +18,7 @@ I'm  H**ong**N**a**, a Java software engineer.
 -   :pencil2: [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) / [i3wm](https://i3wm.org/) / [Neovim](https://neovim.io/) / [nnn](https://github.com/jarun/nnn) / [yadm](https://github.com/TheLocehiliosan/yadm)
 -  🌊: Work in Guangzhou
 -   :man_scientist: Find me on [blog](https://www.cnblogs.com/xiaochenNN/)
--   :thought_balloon: Ask me anything at [Discussions](https://github.com/Wonderchn//Wonderchn/new)!
+-   :thought_balloon: Ask me anything at [Discussions](https://github.com/Wonderchn/Wonderchn/issues/new)!
 
 ---
 
