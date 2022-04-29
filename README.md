@@ -18,7 +18,7 @@ I'm  H**ong**N**a**, a Java software engineer.
 -  🌊: Work in Guangzhou
 -   :man_scientist: Find me on [blog](https://www.cnblogs.com/xiaochenNN/)
 -   :thought_balloon: Ask me anything at [Discussions](https://github.com/Wonderchn/Wonderchn/issues/new)!
--  🐌❤️:⚽、👀📖
+-  ❤️:⚽、📖
 ---
 
 <!-- 贪吃蛇代码贡献图 -->
