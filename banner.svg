@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">HongNa — Java software engineer</title>
+  <desc id="desc">Java、SQL、Redis 和 JVM；广州</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1428"/>
+      <stop offset="1" stop-color="#111f38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#59e1c3"/>
+      <stop offset="1" stop-color="#7aa9ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#30415e" stroke-opacity=".28" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <path d="M 1 302 C 248 201 318 440 582 299 S 956 165 1199 310" fill="none" stroke="#183c54" stroke-width="110" opacity=".42"/>
+  <circle cx="1019" cy="102" r="152" fill="none" stroke="#7aa9ff" stroke-opacity=".15" stroke-width="1"/>
+  <circle cx="1019" cy="102" r="106" fill="none" stroke="#59e1c3" stroke-opacity=".18" stroke-width="1"/>
+  <circle cx="1019" cy="102" r="60" fill="none" stroke="#7aa9ff" stroke-opacity=".23" stroke-width="1"/>
+  <path d="M 964 102 h 110 M 1019 47 v 110" stroke="#7aa9ff" stroke-opacity=".24"/>
+  <rect x="68" y="71" width="62" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="68" y="163" fill="#f3f7ff" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="-2">HongNa</text>
+  <text x="72" y="228" fill="#a9c0d8" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="2">JAVA  /  SQL  /  REDIS  /  JVM</text>
+  <circle cx="1105" cy="283" r="5" fill="#59e1c3"/>
+  <circle cx="1126" cy="283" r="5" fill="#7aa9ff"/>
+  <circle cx="1147" cy="283" r="5" fill="#d0ddf3"/>
+</svg>
