@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="HongNa — Java backend engineer based in Guangzhou" width="100%" />
+  <img src="./banner.svg" alt="陈鸿钠 — Java 后端开发工程师" width="100%" />
 
   <h2>Hi, I'm HongNa 👋</h2>
   <p>Java backend engineer based in Guangzhou, focused on AI application engineering.</p>
