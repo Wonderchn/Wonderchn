@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">陈鸿钠 — Java 后端开发工程师</title>
   <desc id="desc">陈鸿钠，Java 后端开发工程师，关注高并发一致性、数据权限与 AI 应用工程化；广州。</desc>
   <defs>
@@ -10,11 +10,6 @@
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#5EEAD4"/>
       <stop offset="1" stop-color="#60A5FA"/>
-    </linearGradient>
-    <linearGradient id="divider" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.45"/>
-      <stop offset="0.55" stop-color="#60A5FA" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="glowTeal" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.18"/>
@@ -34,23 +29,23 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <mask id="gridMask">
-      <rect width="1200" height="440" fill="url(#gridFade)"/>
+      <rect width="1200" height="360" fill="url(#gridFade)"/>
     </mask>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#7DD3FC" stroke-opacity="0.09" stroke-width="1"/>
     </pattern>
     <clipPath id="frame">
-      <rect width="1200" height="440" rx="24"/>
+      <rect width="1200" height="360" rx="24"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="440" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#bg)"/>
     <ellipse cx="1050" cy="20" rx="370" ry="250" fill="url(#glowTeal)"/>
-    <ellipse cx="60" cy="450" rx="330" ry="230" fill="url(#glowBlue)"/>
-    <rect width="1200" height="440" fill="url(#grid)" mask="url(#gridMask)"/>
+    <ellipse cx="60" cy="370" rx="330" ry="230" fill="url(#glowBlue)"/>
+    <rect width="1200" height="360" fill="url(#grid)" mask="url(#gridMask)"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="439" rx="23.5" fill="none" stroke="#7DD3FC" stroke-opacity="0.14"/>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="23.5" fill="none" stroke="#7DD3FC" stroke-opacity="0.14"/>
 
   <!-- Identity -->
   <rect x="72" y="56" width="36" height="3" rx="1.5" fill="url(#accent)"/>
@@ -64,6 +59,24 @@
   <text x="94" y="272" fill="#94A3B8" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="16">广州 · 可随时到岗</text>
   <circle cx="226" cy="266" r="2" fill="#475569"/>
   <text x="240" y="272" fill="#94A3B8" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="16">OpenChamber 开源贡献</text>
+
+  <!-- Core stack -->
+  <g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">
+    <rect x="72" y="296" width="62" height="30" rx="15" fill="url(#accent)"/>
+    <text x="86" y="316" fill="#06121F">Java</text>
+
+    <rect x="144" y="296" width="190" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
+    <text x="158" y="316" fill="#A7F3D0">Spring Cloud Alibaba</text>
+
+    <rect x="344" y="296" width="74" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
+    <text x="358" y="316" fill="#A7F3D0">Redis</text>
+
+    <rect x="428" y="296" width="142" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
+    <text x="442" y="316" fill="#A7F3D0">Elasticsearch</text>
+
+    <rect x="580" y="296" width="62" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
+    <text x="594" y="316" fill="#A7F3D0">RAG</text>
+  </g>
 
   <!-- Focus card -->
   <rect x="820" y="52" width="308" height="204" rx="18" fill="url(#card)" stroke="#1E3A5F" stroke-opacity="0.9"/>
@@ -82,30 +95,4 @@
   <text x="858" y="209" fill="#CBD5E1" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14">五级数据权限与字段加解密</text>
   <circle cx="846" cy="228" r="3" fill="#5EEAD4" opacity="0.75"/>
   <text x="858" y="233" fill="#CBD5E1" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14">RAG / Agent 任务恢复</text>
-
-  <!-- Tech stack -->
-  <line x1="72" y1="290" x2="1128" y2="290" stroke="url(#divider)" stroke-width="1"/>
-  <line x1="150" y1="306" x2="150" y2="422" stroke="#1E3A5F" stroke-opacity="0.7"/>
-
-  <g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#5EEAD4" letter-spacing="1">
-    <text x="72" y="322">后端框架</text>
-    <text x="72" y="352">数据与文件</text>
-    <text x="72" y="382">权限与业务</text>
-    <text x="72" y="412">AI 与工程</text>
-  </g>
-
-  <g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="15" fill="#B8C4D4">
-    <text x="164" y="322">
-      <tspan>Java</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Spring Boot</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Spring Cloud Alibaba（Nacos / Gateway / Sentinel / Seata）</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>MyBatis-Plus / TypeHandler</tspan>
-    </text>
-    <text x="164" y="352">
-      <tspan>MySQL</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>PostgreSQL</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Oracle</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Redis / Redisson</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Elasticsearch</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Flink CDC</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>MinIO</tspan>
-    </text>
-    <text x="164" y="382">
-      <tspan>Spring Security / OAuth2</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Sa-Token</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>RBAC</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>AOP 数据权限</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>SM2 / SM4</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Flowable</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>EasyExcel</tspan>
-    </text>
-    <text x="164" y="412">
-      <tspan>AgentScope</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>RAG</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>SSE</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>MCP</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Vue 3 / Element Plus</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Git</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Docker</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>GitHub Actions</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>SkyWalking / MDC</tspan><tspan fill="#5B6B80">  ·  </tspan><tspan>Filebeat / Logstash</tspan>
-    </text>
-  </g>
 </svg>
