@@ -1,98 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">陈鸿钠 — Java 后端开发工程师</title>
   <desc id="desc">陈鸿钠，Java 后端开发工程师，关注高并发一致性、数据权限与 AI 应用工程化；广州。</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070C16"/>
-      <stop offset="0.55" stop-color="#0A1424"/>
-      <stop offset="1" stop-color="#0C1A2E"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5EEAD4"/>
-      <stop offset="1" stop-color="#60A5FA"/>
-    </linearGradient>
-    <radialGradient id="glowTeal" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#60A5FA" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0D192B" stop-opacity="0.94"/>
-      <stop offset="1" stop-color="#091120" stop-opacity="0.94"/>
-    </linearGradient>
-    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.52"/>
-      <stop offset="0.7" stop-color="#ffffff" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <mask id="gridMask">
-      <rect width="1200" height="360" fill="url(#gridFade)"/>
-    </mask>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#7DD3FC" stroke-opacity="0.09" stroke-width="1"/>
-    </pattern>
-    <clipPath id="frame">
-      <rect width="1200" height="360" rx="24"/>
-    </clipPath>
-  </defs>
 
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="360" fill="url(#bg)"/>
-    <ellipse cx="1050" cy="20" rx="370" ry="250" fill="url(#glowTeal)"/>
-    <ellipse cx="60" cy="370" rx="330" ry="230" fill="url(#glowBlue)"/>
-    <rect width="1200" height="360" fill="url(#grid)" mask="url(#gridMask)"/>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="359" rx="23.5" fill="none" stroke="#7DD3FC" stroke-opacity="0.14"/>
+  <!-- Paper -->
+  <rect width="1200" height="360" fill="#F3F0E8"/>
+  <rect x="900" width="300" height="360" fill="#1D4ED8"/>
 
-  <!-- Identity -->
-  <rect x="72" y="56" width="36" height="3" rx="1.5" fill="url(#accent)"/>
-  <text x="72" y="96" fill="#5EEAD4" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="3">JAVA 后端开发工程师</text>
-  <text x="72" y="185" fill="#F8FAFC" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="1">陈鸿钠</text>
-  <text x="350" y="178" fill="#64748B" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="400" letter-spacing="0.5">HongNa</text>
-  <text x="72" y="228" fill="#CBD5E1" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400">关注高并发一致性、数据权限与 AI 应用工程化</text>
+  <!-- Top rule -->
+  <rect x="60" y="51" width="10" height="10" fill="#1D4ED8"/>
+  <text x="82" y="62" fill="#0E0E0E" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.5">01 — JAVA 后端开发工程师</text>
+  <text x="840" y="62" text-anchor="end" fill="#5F5B53" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="2">@WONDERCHN</text>
+  <line x1="60" y1="80" x2="840" y2="80" stroke="#0E0E0E" stroke-opacity="0.14"/>
 
-  <circle cx="78" cy="266" r="9" fill="#34D399" opacity="0.14"/>
-  <circle cx="78" cy="266" r="4" fill="#34D399"/>
-  <text x="94" y="272" fill="#94A3B8" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="16">广州 · 可随时到岗</text>
-  <circle cx="226" cy="266" r="2" fill="#475569"/>
-  <text x="240" y="272" fill="#94A3B8" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="16">OpenChamber 开源贡献</text>
+  <!-- Name -->
+  <text x="54" y="192" fill="#0E0E0E" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif" font-size="104" font-weight="800" letter-spacing="2">陈鸿钠</text>
+  <text x="60" y="236" fill="#5F5B53" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="1.5">HongNa</text>
 
-  <!-- Core stack -->
-  <g font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">
-    <rect x="72" y="296" width="62" height="30" rx="15" fill="url(#accent)"/>
-    <text x="86" y="316" fill="#06121F">Java</text>
+  <!-- Meta -->
+  <circle cx="64" cy="276" r="4" fill="#1D4ED8"/>
+  <text x="78" y="281" fill="#3A3731" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif" font-size="16" font-weight="400">广州 · 可随时到岗 · OpenChamber 开源贡献</text>
 
-    <rect x="144" y="296" width="190" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
-    <text x="158" y="316" fill="#A7F3D0">Spring Cloud Alibaba</text>
+  <!-- Index -->
+  <text x="840" y="252" text-anchor="end" fill="none" stroke="#D8D2C5" stroke-width="1.5" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="170" font-weight="700" letter-spacing="-6">01</text>
+  <text x="840" y="276" text-anchor="end" fill="#A39C8E" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="3">PROFILE</text>
 
-    <rect x="344" y="296" width="74" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
-    <text x="358" y="316" fill="#A7F3D0">Redis</text>
+  <!-- Bottom rule and core stack -->
+  <line x1="60" y1="306" x2="840" y2="306" stroke="#0E0E0E" stroke-opacity="0.14"/>
+  <text x="60" y="338" fill="#5F5B53" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="2">JAVA / SPRING CLOUD ALIBABA / REDIS / ELASTICSEARCH / RAG</text>
 
-    <rect x="428" y="296" width="142" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
-    <text x="442" y="316" fill="#A7F3D0">Elasticsearch</text>
-
-    <rect x="580" y="296" width="62" height="30" rx="15" fill="#0E2033" stroke="#1E3A5F"/>
-    <text x="594" y="316" fill="#A7F3D0">RAG</text>
-  </g>
-
-  <!-- Focus card -->
-  <rect x="820" y="52" width="308" height="204" rx="18" fill="url(#card)" stroke="#1E3A5F" stroke-opacity="0.9"/>
-  <circle cx="848" cy="78" r="4.5" fill="#F87171" opacity="0.8"/>
-  <circle cx="864" cy="78" r="4.5" fill="#FBBF24" opacity="0.8"/>
-  <circle cx="880" cy="78" r="4.5" fill="#34D399" opacity="0.8"/>
-  <text x="902" y="83" fill="#64748B" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="11">~/focus</text>
-  <line x1="820" y1="98" x2="1128" y2="98" stroke="#1E3A5F" stroke-opacity="0.55"/>
-
-  <text x="842" y="142" font-family="'JetBrains Mono', 'SFMono-Regular', Consolas, monospace" font-size="40" font-weight="700"><tspan fill="#475569" font-weight="400">&lt;</tspan><tspan fill="url(#accent)">HN</tspan><tspan fill="#475569" font-weight="400">/&gt;</tspan></text>
-  <rect x="842" y="154" width="40" height="2" rx="1" fill="url(#accent)" opacity="0.55"/>
-
-  <circle cx="846" cy="180" r="3" fill="#5EEAD4" opacity="0.75"/>
-  <text x="858" y="185" fill="#CBD5E1" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14">并发评分与数据一致性</text>
-  <circle cx="846" cy="204" r="3" fill="#5EEAD4" opacity="0.75"/>
-  <text x="858" y="209" fill="#CBD5E1" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14">五级数据权限与字段加解密</text>
-  <circle cx="846" cy="228" r="3" fill="#5EEAD4" opacity="0.75"/>
-  <text x="858" y="233" fill="#CBD5E1" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Source Han Sans SC', 'Segoe UI', Arial, sans-serif" font-size="14">RAG / Agent 任务恢复</text>
+  <!-- Cobalt panel -->
+  <text x="932" y="108" fill="#FFFFFF" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-3">HN</text>
+  <rect x="932" y="126" width="236" height="1" fill="#FFFFFF" opacity="0.35"/>
+  <text x="932" y="162" fill="#FFFFFF" opacity="0.62" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2">01</text>
+  <text x="962" y="162" fill="#FFFFFF" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.5">BACKEND</text>
+  <text x="932" y="190" fill="#FFFFFF" opacity="0.62" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2">02</text>
+  <text x="962" y="190" fill="#FFFFFF" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.5">AI</text>
+  <text x="932" y="218" fill="#FFFFFF" opacity="0.62" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2">03</text>
+  <text x="962" y="218" fill="#FFFFFF" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.5">OPEN SOURCE</text>
+  <rect x="932" y="246" width="236" height="1" fill="#FFFFFF" opacity="0.35"/>
+  <text x="932" y="286" fill="#FFFFFF" font-family="'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="3">GUANGZHOU / CN</text>
+  <rect x="1156" y="316" width="12" height="12" fill="#FFFFFF" opacity="0.9"/>
 </svg>
