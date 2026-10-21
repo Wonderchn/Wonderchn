@@ -1,8 +1,6 @@
 <div align="center">
   <img src="./banner.svg" alt="陈鸿钠 — Java 后端开发工程师" width="100%" />
 
-  <h2>Hi, I'm HongNa 👋</h2>
-  <p>Java backend engineer based in Guangzhou, focused on AI application engineering.</p>
   <p>用代码解决问题，也把实践过程认真记录下来。</p>
 
   <p>
